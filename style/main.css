@@ -1,0 +1,152 @@
+@font-face{
+    font-family: 'Pingfang';
+    src: url('../fonts/pingfang.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    color: black;
+    font-family: 'Pingfang','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+body{
+    overflow-x: hidden;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+p{
+    color: rgb(29, 29, 29);
+    font-size: 25px;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/texto.cur), auto
+}
+h1, h2, h3{
+    color: black;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/texto.cur), auto
+}
+span{
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/No_Disponible.cur), auto;
+}
+h2{
+    font-size: 35px;
+}
+a{
+    text-decoration: none;
+    color: rgb(92, 122, 255);
+    user-select: pointer;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur), auto
+}
+a:active{
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/work.cur), alias
+}
+.bilibili{
+    color: rgb(255, 125, 168);
+    text-align: center;
+}
+.zhihu{
+    color:rgb(44, 58, 255);
+    text-align: center;
+}.nav {
+    overflow-y: hidden;
+    list-style-type: none;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #333;
+    padding: 10px;
+    margin:0;
+}
+.footer-li{
+    margin-left: -40px;
+    margin-right: 30px;
+    font-size: 15px;
+}
+.footer-li a{
+    margin-left: 1px;
+    margin-right: 40px;
+    font-size: 15px;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur), auto
+}
+.nav a {
+    color: white; 
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block; 
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur), auto
+}
+.nav a:hover {
+    background-color: #575757;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur), auto
+}
+[type="title"]{
+    font-size: 40px;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+[type="block"]{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: minmax(auto,100vh);
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+[type="header"]{
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: minmax(auto,100vh);
+    background-image: url("../image/head_bkg.png");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+[type="footer"]{
+    color: rgb(136, 136, 136);
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: -15px;
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    height: minmax(auto,100vh);
+    background-image: url("../image/head_bkg.png");
+    height: 320px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+.title-underline {
+    display: inline-block;
+    width: 52.5px;
+    height: 3.5px;
+    border-radius: 1.95px;
+    background-color: rgb(49, 156, 255);
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+img{
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}

@@ -1,0 +1,26 @@
+.project{
+    height: 325px;
+    width: 275px;
+    background-color: rgba(135, 157, 255, 0.75);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+.project img{
+    width: 275px;
+    height: 120px;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+.project .motd{
+    color: rgba(104, 103, 103, 0.6);
+    font-size: 17.5px;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur), auto;
+}
+.project a{
+    font-size: 17.5px;
+    color: rgb(92, 122, 255);
+    padding: 0;
+    margin-left: -2px;
+    cursor: url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/ayuda.cur), auto;
+}
